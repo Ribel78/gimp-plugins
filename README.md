@@ -1,5 +1,6 @@
 # gimp-plugins
 Personal Gimp plugins written in Python
+
 Gude Creator
 
 Gudes can be created using selected option from "Add guides from:" menu

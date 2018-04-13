@@ -6,11 +6,12 @@ Personal Gimp plugins written in Python
 Gudes can be created using "Add guides from:" menu.
 
 "Formula" option:
+
 You can add gudes by describig them using text.
 H for horisontal (-) gudes and V for vertical (|) gudes followed by numbers (indegers or floats) describing guide's position starting from the top left corner of the image. Position can be percent or pixels, depending on the toggle "Use percent/pixels"</br>
 <b>Example: H25V25H50</b>
 
-Another use of Formula is equidistant guide distribution.
+Another use of "Formula" is equidistant guide distribution.
 in this case use only letters to indicate the number of guides of different type.</br>
 <b>Example: HHHVVVVV</b>
 

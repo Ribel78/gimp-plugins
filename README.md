@@ -3,7 +3,7 @@ Personal Gimp plugins written in Python
 
 <h2>Gude Creator</h2>
 
-Gudes can be created using selected option from "Add guides from:" menu
+Gudes can be created using "Add guides from:" menu.
 
 "Formula" option:
 You can add gudes by describig them using text.

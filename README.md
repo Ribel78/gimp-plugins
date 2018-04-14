@@ -32,4 +32,4 @@ Avoid spaces or other letters in the formula for accurate results.
 
 "Remove previous guides" toggle can clear existing guides before adding the new ones.
 
-The rest of the options use active layer or selection bounds as reference for adding new guides
+The rest of the options use active layer or selection bounds as reference for adding new guides.

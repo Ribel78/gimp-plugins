@@ -3,6 +3,8 @@ Gimp plugins written in Python
 
 <h2>Guide Creator</h2>
 
+A plug-in for creating guides based on simple instructions or using active layer or selection as reference.
+
 <h3>Installation:</h3>
 
 Place the <b>guide_creator.py</b> file in <b>\.gimp-2.8\plug-ins\ </b> folder.<br>
@@ -20,8 +22,7 @@ H for horisontal (-) guide and V for vertical (|) guide followed by number (inde
 <i>This will add horiszontal guides at 25%( or at 25-th pixel), 50%(or at 50 pixel) along Y axis and a vertical guide at 36.4% (or 36-th pixel) along X axis.</i>
 
 
-Another use of "Formula" is equidistant guide distribution.
-in this case use only letters to indicate the number of guides of different type.</br>
+Another use of "Formula" is equidistant guide distribution. In this case use only letters to indicate the number of guides of different type.</br>
 <b>Example: HHHVVVVV</b></br>
 <i>This will add a 5x3 grid of guides.</i>
 

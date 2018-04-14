@@ -5,8 +5,8 @@ Gimp plugins written in Python
 
 Installation:
 
-Place the guide_creator.py file in \.gimp-2.8\plug-ins\ folder.<br>
-The plungin is located in <b>Image - > Guides -> Guide Creator</b> menu
+Place the <b>guide_creator.py</b> file in <b>\.gimp-2.8\plug-ins\</b> folder.<br>
+In Gimp the plug-in is located in <b>Image - > Guides -> Guide Creator</b> menu.
 
 Guides can be created using "Add guides from:" menu.
 

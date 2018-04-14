@@ -59,14 +59,12 @@ def guides_from_formula(image, list, h, w, units, mirror, dh, dv):
 				break
 	if dh > 0:
 		space = int(h/(dh+1))
-		gimp.message(str(space))
 		pos = space
 		for i in range(dh):
 			image.add_hguide(pos)
 			pos += space
 	if dv > 0:
-		space = int(w/(dv+1))
-		gimp.message(str(space))		
+		space = int(w/(dv+1))		
 		pos = space
 		for i in range(dv):
 			image.add_vguide(pos)

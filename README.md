@@ -1,5 +1,5 @@
 # gimp-plugins
-Personal Gimp plugins written in Python
+Gimp plugins written in Python
 
 <h2>Guide Creator</h2>
 

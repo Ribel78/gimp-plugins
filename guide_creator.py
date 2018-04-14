@@ -22,12 +22,14 @@
 
 
 # Usage:
-# Gudes can be created using "Add guides from:" menu.
+# Guides can be created using "Add guides from:" menu.
 # "Formula" option:
-# You can add gudes by describig them using text. H for horisontal (-) gudes and V for vertical (|) gudes followed by numbers (indegers or floats) describing guide's position starting from the top left corner of the image. Position can be percent or pixels, depending on the toggle "Use percent/pixels".
+# You can add guides by describig them using text description. H for horisontal (-) guide and V for vertical (|) guide followed by number (indeger or float) describing guide's position starting from the top left corner of the image. Position can be percent of the image width or height or distance in pixels, depending on the toggle "Use percent/pixels".
 # Example: H25V36.4H50
+# This will add horiszontal guides at 25%( or at 25-th pixel), 50%(or at 50 pixel) along Y axis and a vertical guide at 36.4% (or 36-th pixel) along X axis.
 # Another use of "Formula" is equidistant guide distribution. in this case use only letters to indicate the number of guides of different type.
 # Example: HHHVVVVV
+# This will add a 5x3 grid of guides.
 # Avoid spaces or other letters in the formula for acurate results.
 # "Include mirrored guides" toggle can add also guides that are symmetrical to those from the formula.
 # "Remove previous guides" toggle can clear existing guides before adding the new ones.

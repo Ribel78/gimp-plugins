@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: iso-8859-15 -*-
 
-# GIMP plugin to create guides in various ways
+# GIMP plug-in for creating guides based on simple instructions or using active layer or selection as reference.
 # (c) Rumen Belev 2018
 #
 #   History:
@@ -20,17 +20,22 @@
 #   along with this program; if not, write to the Free Software
 #   Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 
+# Installation:
+
+# Place the guide_creator.py file in .gimp-2.8\plug-ins\ folder.
+# In Gimp, the plug-in is located in Image - > Guides -> Guide Creator menu.
 
 # Usage:
+
 # Guides can be created using "Add guides from:" menu.
 # "Formula" option:
-# You can add guides by describig them using text description. H for horisontal (-) guide and V for vertical (|) guide followed by number (indeger or float) describing guide's position starting from the top left corner of the image. Position can be percent of the image width or height or distance in pixels, depending on the toggle "Use percent/pixels".
+# You can add guides by describing them using text description. H for horisontal (-) guide and V for vertical (|) guide followed by number (indeger or float) describing guide's position starting from the top left corner of the image. Position can be percent of the image width or height or distance in pixels, depending on the toggle "Use percent/pixels".
 # Example: H25V36.4H50
 # This will add horiszontal guides at 25%( or at 25-th pixel), 50%(or at 50 pixel) along Y axis and a vertical guide at 36.4% (or 36-th pixel) along X axis.
-# Another use of "Formula" is equidistant guide distribution. in this case use only letters to indicate the number of guides of different type.
+# Another use of "Formula" is equidistant guide distribution. In this case use only letters to indicate the number of guides of different type.
 # Example: HHHVVVVV
 # This will add a 5x3 grid of guides.
-# Avoid spaces or other letters in the formula for acurate results.
+# Avoid spaces or other letters in the formula for accurate results.
 # "Include mirrored guides" toggle can add also guides that are symmetrical to those from the formula.
 # "Remove previous guides" toggle can clear existing guides before adding the new ones.
 # The rest of the options use active layer or selection bounds as reference for adding new guides.

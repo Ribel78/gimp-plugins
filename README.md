@@ -36,6 +36,10 @@ The rest of the options use active layer or selection bounds as reference for ad
 
 <h2>Vector To Mask</h2>
 
+<h3>Installation:</h3>
+
+Place the <b>vector2mask.py</b> file in <b>.gimp-2.8\plug-ins\ </b>folder.
+In Gimp, right click on active layer and run <b>"Vector to Mask"</b> command.
 
 <h3>Usage:</h3>
 

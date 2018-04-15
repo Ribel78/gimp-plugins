@@ -33,3 +33,16 @@ Avoid spaces or other letters in the formula for accurate results.
 "Remove previous guides" toggle can clear existing guides before adding the new ones.
 
 The rest of the options use active layer or selection bounds as reference for adding new guides.
+
+<h2>Vector To Mask</h2>
+
+
+<h3>Usage:</h3>
+
+The plug-in requires the names of the layer and the path to use as mask to be identical.
+
+Select the layer, right click and choose "Vector to Mask" command.
+
+This will create or update the existing mask for the layer.<br>
+The mask is feathered by 2 pixels and can be adjusted additionally with the Levels Tool.<br>
+If you don't want this step to be performed comment out the corresponding line in the script.<br>
